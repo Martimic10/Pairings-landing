@@ -37,6 +37,7 @@ export const siteConfig = {
     { value: "orlando", label: "Orlando, FL" },
     { value: "dallas", label: "Dallas, TX" },
     { value: "atlanta", label: "Atlanta, GA" },
+    { value: "wichita", label: "Wichita, KS" },
     { value: "other", label: "Somewhere else" },
   ] as const,
 
@@ -233,12 +234,12 @@ export const siteConfig = {
         {
           question: "Is Pairings free?",
           answer:
-            "Yes. Pairings is free to use. There is no subscription and no payments on this site or in the app at launch.",
+            "You can get started for free. Pairings Pro unlocks the full experience — $9.99/month or $89/year.",
         },
         {
           question: "Which cities are you launching in?",
           answer:
-            "We're starting with select metros (Austin, Denver, Nashville, Phoenix, Charlotte, Raleigh, Tampa, Orlando, Dallas, and Atlanta). Join the waitlist for your city — or pick “Somewhere else” so we know where to expand next.",
+            "We're starting with select metros (Austin, Denver, Nashville, Phoenix, Charlotte, Raleigh, Tampa, Orlando, Dallas, Atlanta, and Wichita). Join the waitlist for your city — or pick “Somewhere else” so we know where to expand next.",
         },
         {
           question: "Do I need a GHIN handicap?",
